@@ -6,6 +6,6 @@ var board = new j5.Board({
 });
 
 board.on("ready", function () {
-    var led = new j5.Led('P1-13');
+    var led = new j5.Led('GPIO8');
     led.strobe(500);
 });
