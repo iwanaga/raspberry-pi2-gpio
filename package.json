@@ -1,0 +1,23 @@
+{
+  "name": "raspberry-pi2-gpio",
+  "version": "0.0.1",
+  "description": "test Raspberry Pi 2 GPIO via JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwanaga/raspberry-pi2-gpio.git"
+  },
+  "author": "iwanaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwanaga/raspberry-pi2-gpio/issues"
+  },
+  "homepage": "https://github.com/iwanaga/raspberry-pi2-gpio#readme",
+  "dependencies": {
+    "johnny-five": "^0.8.86",
+    "raspi-io": "^3.3.4"
+  }
+}
