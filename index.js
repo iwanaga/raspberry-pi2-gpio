@@ -1,5 +1,5 @@
 var j5 = require('johnny-five'),
-    Pi = require('respi-io');
+    Pi = require('raspi-io');
 
 var board = new j5.Board({
     io: new Pi()
